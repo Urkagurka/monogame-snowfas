@@ -7537,11 +7537,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Monogame-S\\Monogame-S.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\monogame-snowfas\\Monogame-S.csproj",
       "projectName": "Monogame-S",
-      "projectPath": "C:\\Users\\Admin\\Monogame-S\\Monogame-S.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\monogame-snowfas\\Monogame-S.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Monogame-S\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\monogame-snowfas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

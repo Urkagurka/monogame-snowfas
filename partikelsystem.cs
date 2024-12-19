@@ -10,6 +10,7 @@ namespace Monogame_S
         List<partikrel> particles = new List<partikrel>();
         Texture2D texture;
         Random random = new Random();
+        float windPower = 5;
         public partikelsystem(Texture2D texture){
             this.texture=texture;
         }
@@ -25,12 +26,22 @@ namespace Monogame_S
 
             return new partikrel(size,Color.GhostWhite,position,texture);
         }
+        private void RemovePartikrel(){
+            for(int i = 0; i< particles.Count; i++){
+                if(particles[i].Postition.Y>500){
+                    particles.RemoveAt(i);
+                    i--;
+                }
+            }
+        }
         
         public void Update(){
             foreach(partikrel particle in particles){
+                particle.Velocity = new Vector2(windPower*0.0166666666f, 0);
                 particle.Update();
             }
             SpawnParticle();
+            RemovePartikrel();
         }
         public void Draw(SpriteBatch spriteBatch){
             foreach(partikrel particle in particles){

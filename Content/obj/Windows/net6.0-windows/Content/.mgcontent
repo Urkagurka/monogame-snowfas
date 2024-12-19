@@ -4,9 +4,11 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Admin/Monogame-S/Content/Namnlös.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/monogame-snowfas/Content/Namnlös.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/monogame-snowfas/Content/Snowflake.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>
